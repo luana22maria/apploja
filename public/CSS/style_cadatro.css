@@ -1,0 +1,32 @@
+
+
+.paragrafo{
+   text-align: center;
+   padding-top: 2rem;
+}
+
+
+#row{
+   padding-top: 2px;
+}
+
+#btn{
+ margin-left: 10rem;
+ padding-top: 3px;
+}
+
+
+
+#input_group{
+   padding-bottom: 3px;
+
+}
+
+#msg{
+  border-left: 10px solid;
+  color: darkgreen;
+  text-align: center;
+  padding: 10px;
+  font-style: bold ;
+  font-size: 20px;
+}

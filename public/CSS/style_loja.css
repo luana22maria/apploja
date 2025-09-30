@@ -1,0 +1,114 @@
+
+
+
+#card_entrada{
+    position: fixed;
+    background-repeat: no-repeat;
+    width: 200%;
+    height: auto;
+    
+}
+
+.carousel {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#carousel-img{
+     width: 50%;
+     height: auto;
+     border-top-left-radius: 10% ;
+     border-bottom-left-radius: 10% ;
+      border-top-right-radius: 1% ;
+     border-bottom-right-radius: 1% ;
+     border-left: solid chocolate 10px 
+}
+/* .card-header img{
+
+   
+} */
+#carouselExemplo{
+    border: solid blue 0px;
+    width: 100%;
+    height: auto;
+}
+
+#card_total{
+ margin-top: 2rem;
+ margin-left: 40%;
+
+}
+
+#carrosel{
+    width: 40rem;
+    height: auto;
+}
+
+.carousel-item .card{
+
+    width: 18rem;
+    height: auto;
+}
+
+.bnt_modelos{
+    padding-top: 10px;
+}
+
+
+.card-text{
+    padding-top: 1rem;
+    font-size: 14px;
+}
+
+.card-body p{
+font-size: 14px;
+}
+
+.container-lg .subtitulo{
+    margin-top: 3rem;
+}
+
+
+#cards-container{ /* cards da imgem de produtos */
+   border: solid rgb(19, 16, 15) 0px;
+   width: 100%;
+   height: auto;
+   background-size: contain;
+   position: relative;
+}
+
+
+#font h5{
+
+     border: solid bisque 2px;
+     border-bottom: solid rgb(228, 159, 55) ;
+     border-radius: 5px;
+     color: rgb(16, 14, 17);
+     background-color: bisque;
+     font-size: 15px;
+     text-align: center;
+
+}
+
+
+.card-header p{
+    font-family: 'Times New Roman', 'Times, serif';
+    font-size: 14px;
+
+}
+
+.card-header img{
+  font-family: 'roboto';
+  width: 8rem; 
+  height: 8rem;
+  border-radius: 50rem;   
+}
+
+.card-body h4{
+    text-align: justify;
+}
+.card-body p{
+    text-align: left;
+    padding-top: 2rem;
+}

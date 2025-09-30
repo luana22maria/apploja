@@ -1,0 +1,35 @@
+h3{
+    text-align: center;
+      padding-top: 5rem;
+}
+
+.card-header{
+  margin-top: 2rem;
+  text-align: center;
+  color:aliceblue;
+  background-image: url('/IMG/vector1.jpg');
+  border-bottom: solid 3px darksalmon;
+  font-weight:700 ;
+  border-top-left-radius: 20rem;
+  border-top-right-radius: 20rem;
+}
+
+.table thead th{
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+
+}
+
+.table tbody #data{ 
+  text-align: center;
+  font-size: 10px;
+  color: rgb(17, 17, 17);
+}
+
+.table tbody #comnt{
+  text-align: left;
+  font-style:italic;
+  font-size: 15px;
+  color: rgb(66, 66, 66);
+}

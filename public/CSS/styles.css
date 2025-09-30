@@ -1,0 +1,189 @@
+*{
+    font-family: 'Roboto';
+}
+
+body{
+ background: fixed linear-gradient(0deg,rgba(242, 215, 155, 1) 0%, rgba(252, 250, 250, 1) 42%);
+}
+
+
+.container{
+  border: solid 0px;
+ 
+}
+
+header{
+  background: #fff;
+  border-bottom: 1px solid;
+  color: #dfdada;
+}
+
+.row{
+  margin: 0;
+}
+
+.btn-primary{
+  font-size: 15px;
+  background-color: rgb(245, 115, 54);
+  border: 2px solid darkorange;
+  color: aliceblue;
+  
+}
+
+ .btn-primary:hover{
+  background-color: darkorange;
+  border-color: darkorange;
+}
+
+
+/* navbar header*/
+
+.container-fluid img{
+    border-radius: 50rem;
+    width: 3rem;
+    height: 3rem;   
+}
+
+.navbar-collapse{
+
+  justify-content:space-between;
+  background:#fff;
+  padding: 5px 0;
+}
+
+.navbar-collapse a{
+  font-size: 16px;
+  color: #757578;
+}
+
+.navbar-collapse a:hover{
+  color: darkorange;
+}
+
+/* search container */
+#search-container{
+
+  margin-top: 2px;
+  background-image: url("/IMG/capa-rosa.png");
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding: 50px;
+  text-align: center;
+}
+
+#search-container h1{
+  color: darkorange;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+
+
+#search-container form{
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* lista de lançamentos*/
+
+
+hr{
+  color: #f3740d;
+}
+
+#lançamentos .subtitulo{
+  color: #757578;
+  margin-bottom: 30px;
+}
+
+#cards-container{
+   width: 100%;
+   height: auto;
+   background-size: contain;
+   position: relative;
+   margin-bottom: 5rem;
+  
+}
+
+#alinhar-card
+{
+  
+ margin: 0 auto;
+  border: solid #f3740d 0px;
+}
+
+@keyframes shake{
+
+  0%{
+    transform: scale(1);
+  }
+
+  50%{
+    transform: scale(1.1);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+
+}
+
+#lancamentos .card{
+  flex: 1 1 24%;
+  max-width: 25%;
+  border-radius: 10px;
+  border-left: 3px solid;
+  color:darkorange;
+  padding: 0;
+  margin: 5px;
+
+  cursor: pointer;
+  transition: all 1s linear;
+}
+
+#lancamentos .card:hover{
+  border: solid darkorange 10px;
+  animation: shake  0.05s linear 1;
+}
+
+#lancamentos img{
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card .card-date{
+  font-size: 15px;
+  color: #707070;
+}
+
+
+.card .card-title{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+/* Estilo footer*/
+
+footer{
+  position: fixed; /* ou position: sticky; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background:#F7DB9E;
+  color: #9d5353;
+  text-align: center; /* Centraliza horizontalmente */
+  padding: 10px; 
+  font-family: fantasy;
+  font-style: italic;
+  font-size: 14px;
+
+}
+
+
+
+
+
