@@ -23,7 +23,7 @@
 }
 
 #msg{
-  border-left: 10px solid;
+  border-left-color: 10px solid;
   color: darkgreen;
   text-align: center;
   padding: 10px;

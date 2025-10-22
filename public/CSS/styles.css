@@ -73,11 +73,39 @@ header{
   text-align: center;
 }
 
+.container-lg h3{
+   color:#3f3b3c;
+   
+
+}
+
 #search-container h1{
   color: darkorange;
   margin-bottom: 30px;
   font-weight: 900;
 }
+
+/* retorno da busca */
+
+#alert{
+  border-left: 10px red solid;
+  color:#B3315F;
+  text-align: center;
+  padding: 10px;
+  font-style: bold ;
+  font-size: 20px;
+}
+/* #alert p{
+  margin-left: 25px;
+}
+ */
+#alert a{
+  color:darkorange;
+ }
+
+ #alert span{
+  margin-left: 15px;
+ }
 
 
 #search-container form{

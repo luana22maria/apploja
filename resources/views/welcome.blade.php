@@ -9,20 +9,30 @@
 
     <div class="col-md-12" id="search-container">
       <h1>Busque um lançamento</h1>
-      <form action="">
+      <form action="/" method="GET">
         <input type="text" id="search" name="search" class="form-control" placeholder="Procurar...">
       </form>
     </div>
   </div>
 </div>
 
+@if($search)
+  <div class="container-lg">
+      <h3>Resultado da busca por: {{$search}}</h3>
+      <hr>
+  </div>
+    
+  @else
 
-<div class="container-lg">
-  <h3>Novos lançamentos</h3>
+  <div class="container-lg">
+
+      <h3>Novos lançamentos</h3>
       <p class="subtitulo">Lançamentos da semana</p>
       <hr>
 </div>
 
+    
+@endif
 
 <div class="container-lg">
 
@@ -45,6 +55,15 @@
                       </div>
                   </div>
         @endforeach
+
+     @if(count($cadastrar_produtos) == 0)
+
+       <div class="alert alert-danger" role="alert" id="alert">
+            <p>Não localizamos esse produto, tente outro nome ou veja, <span><a href="/">Lançamentos da semana...</a></span></p>
+       </div>
+            
+     @endif 
+ 
         </div>
       </div>
    </div> 

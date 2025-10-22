@@ -8,11 +8,19 @@ use App\Models\cadastrar_produto;
 class HomeController extends Controller
 {
     public function index(){
-     
-     $cadastrar_produtos = Cadastrar_produto::all();
-    
 
-     return view('welcome', ['cadastrar_produtos'=> $cadastrar_produtos]);
+     $search = request('search');
+
+     if($search){
+       $cadastrar_produtos = Cadastrar_produto::where([
+              ['name_produto', 'like', '%'.$search.'%']    // array de pesquisa
+          ])->get();
+      }else{
+
+        $cadastrar_produtos = Cadastrar_produto::all();
+     }
+
+       return view('welcome', ['cadastrar_produtos'=> $cadastrar_produtos, 'search'=> $search]);
 
     }
 
