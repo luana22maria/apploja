@@ -35,6 +35,19 @@ header{
   border-color: darkorange;
 }
 
+.btn-warning{
+ background:#FFA500;
+  color: aliceblue
+}
+
+.btn-warning:hover{
+   background:#FFA500;
+    border-color: #FF8C00;
+    color: aliceblue;
+}
+
+
+
 
 /* navbar header*/
 
@@ -131,31 +144,21 @@ hr{
    background-size: contain;
    position: relative;
    margin-bottom: 5rem;
+   transition: all .10s ease-in-out;
   
 }
 
-#alinhar-card
+/* animação dos cards home */
+
+
+/* #alinhar-card
 {
   
- margin: 0 auto;
+  margin: 0 auto;
   border: solid #f3740d 0px;
 }
+ */
 
-@keyframes shake{
-
-  0%{
-    transform: scale(1);
-  }
-
-  50%{
-    transform: scale(1.1);
-  }
-
-  100%{
-    transform: scale(1);
-  }
-
-}
 
 #lancamentos .card{
   flex: 1 1 24%;
@@ -164,15 +167,13 @@ hr{
   border-left: 3px solid;
   color:darkorange;
   padding: 0;
-  margin: 5px;
+  margin: 20px;
 
-  cursor: pointer;
-  transition: all 1s linear;
+  transition: all .10s ease-in-out
 }
 
 #lancamentos .card:hover{
-  border: solid darkorange 10px;
-  animation: shake  0.05s linear 1;
+  transform: scale(1.1);
 }
 
 #lancamentos img{

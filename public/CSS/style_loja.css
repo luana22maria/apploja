@@ -15,23 +15,44 @@
      align-items: center;
 }
 
-#carousel-img{
-     width: 50%;
-     height: auto;
+#carousel-img .carousel-item{
+     align-items: center;
+     width: 70%;
      border-top-left-radius: 10% ;
      border-bottom-left-radius: 10% ;
-      border-top-right-radius: 1% ;
+     border-top-right-radius: 1% ;
      border-bottom-right-radius: 1% ;
-     border-left: solid chocolate 10px 
+     border-left: solid chocolate 10px;
 }
-/* .card-header img{
 
-   
-} */
-#carouselExemplo{
-    border: solid blue 0px;
-    width: 100%;
+
+ #carousel-img #img-carousel img{
+
+    width: auto;
     height: auto;
+    border-top-left-radius: 10% ;
+    border-bottom-left-radius: 10% ;
+    border-top-right-radius: 1% ;
+    border-bottom-right-radius: 1% ;
+    border: solid 0px red;
+}
+
+ #loja .card{
+  flex: 1 1 24%;
+  max-width: 25%;
+  border-radius: 10px;
+  border-left: 3px solid;
+  color:darkorange;
+  padding: 0;
+  margin: 20px;
+
+}
+
+#loja img{
+    width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 #card_total{
@@ -111,4 +132,17 @@ font-size: 14px;
 .card-body p{
     text-align: left;
     padding-top: 2rem;
+}
+
+
+/* botão voltar */
+
+#btn-loja{
+    border: solid 0px green;
+
+    margin: 20px;
+}
+
+#btn-loja a{
+    margin-bottom: 5rem;
 }

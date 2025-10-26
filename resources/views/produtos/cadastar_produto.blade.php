@@ -31,7 +31,7 @@
                 </div>
                     
                 <div class="bnt_modelos">
-                    <a type="button" href="/" class="btn btn-primary">Voltar</a>
+                    <a type="button" href="/" class="btn btn-warning">Voltar</a>
                 </div>
            </div>
         </div>

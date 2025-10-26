@@ -23,7 +23,9 @@
    <div id="show_div">
 
    <div>
-      <button type="submit" class="btn btn-primary">Salvar</button>
+      <button type="submit" class="btn btn-success">Salvar</button>
+       <a href="/" class="btn btn-warning">Voltar</a>
+
    </div>
   </form>
     
